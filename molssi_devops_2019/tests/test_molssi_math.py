@@ -16,7 +16,6 @@ def num_list_3():
     ([0,2,4,6],3),
     ([1,2,3,4], 2.5)
 ])
-
 def test_many(num_list, expected_mean):
     assert md.mean(num_list) == expected_mean
 
@@ -33,3 +32,9 @@ def test_mean_type_error():
 
     with pytest.raises(TypeError):
         md.mean(test_variable)
+
+@pytest.mark.parametrize("x",[0,1])
+@pytest.mark.parametrize("y",[0,1])
+def test_foo(x,y):
+    pass
+

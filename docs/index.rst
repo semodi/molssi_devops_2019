@@ -5,12 +5,13 @@
 
 Welcome to molssi_devops_2019's documentation!
 =========================================================
+This is sample documentation.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
+   usage/quickstart
 
 Indices and tables
 ==================

@@ -7,6 +7,8 @@ molssi_devops_2019
 
 A sample repo for the 2019 MolSSI Software Fellow Bootcamp
 
+This repository is currently under development.
+
 ### Copyright
 
 Copyright (c) 2019, Sebastian Dick
